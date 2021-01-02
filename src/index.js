@@ -4,9 +4,7 @@ import reportWebVitals from './reportWebVitals';
 import ApolloProvider from './ApolloProvider'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <ApolloProvider />
-  </React.StrictMode>,
+ApolloProvider,
   document.getElementById('root')
 );
 
